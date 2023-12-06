@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.background {
+    background: url('img\ 5\ projeto.jpg') center/cover no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    flex: 1;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 36px;
+    color: #000; /* Cor ajustada para preto */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inp {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.7); /* Cor ajustada para preto */
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.1); /* Cor ajustada para preto */
+    color: #000; /* Cor ajustada para preto */
+}
+
+.input:focus {
+    border-color: #000; /* Cor ajustada para preto */
+}
+
+.input-label {
+    font-size: 18px;
+    color: #000; /* Cor ajustada para preto */
+    margin-bottom: 5px;
+}
+
+.i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #000; /* Cor ajustada para preto */
+}
+
+.submit {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.4); /* Cor ajustada para preto */
+    color: #000; /* Cor ajustada para preto */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Cor ajustada para preto */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000; /* Cor ajustada para preto */
+    text-align: center;
+}
+
+.link {
+    color: #000; /* Cor ajustada para preto */
+    text-decoration: none;
+}
+
+.banner {
+    flex: 1;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2); /* Cor ajustada para preto */
+    color: #000; /* Cor ajustada para preto */
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.wel_text {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo para destacar letras */
+.highlight {
+    color: #000; /* Cor ajustada para preto */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Media Queries para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .form {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .input {
+        padding: 14px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .input-label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .submit {
+        padding: 14px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+}
